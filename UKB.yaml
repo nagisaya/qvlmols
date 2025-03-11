@@ -1,7 +1,5 @@
 payload:
   - DOMAIN-SUFFIX,t-mobile.com
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,capitalone.com
-  - DOMAIN-SUFFIX,monzo.com
-  - DOMAIN-SUFFIX,payoneer.com
-  - DOMAIN-SUFFIX,arkoselabs.com
+  - DOMAIN-SUFFIX,wise.com
+  - DOMAIN-SUFFIX,lemfi.com
+  - DOMAIN-SUFFIX,trading212.com
