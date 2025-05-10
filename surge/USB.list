@@ -3,6 +3,9 @@ DOMAIN-SUFFIX,sofi.com
 DOMAIN-SUFFIX,revolut.com
 DOMAIN-SUFFIX,payoneer.com
 DOMAIN-SUFFIX,arkoselabs.com
+# IBKR
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,ibllc.com
 # capitalone
 DOMAIN-SUFFIX,capitalone.com
 DOMAIN-SUFFIX,capitalone360.com
