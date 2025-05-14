@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,revolut.com
 # payoneer
 DOMAIN-SUFFIX,payoneer.com
 # varo
-DOMAIN-SUFFIX,varomoney.com
+DOMAIN,varomoney.com
 # us bank
 DOMAIN-SUFFIX,www.uscardforum.com
 DOMAIN-SUFFIX,usbank.com
