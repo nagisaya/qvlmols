@@ -20,5 +20,7 @@ DOMAIN-SUFFIX,usbank.com
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,smarty.com
 DOMAIN-SUFFIX,api.smarty.com
+DOMAIN-SUFFIX,us-street.api.smarty.com
+DOMAIN-SUFFIX,us-autocomplete-pro.api.smarty.com
 DOMAIN-KEYWORD,smarty
 DOMAIN-SUFFIX,usbank.com
