@@ -1,4 +1,3 @@
-# capitalone
 DOMAIN-SUFFIX,capitalone.com
 DOMAIN-SUFFIX,capitalone360.com
 DOMAIN-SUFFIX,capitaloneinvesting.com
@@ -6,25 +5,18 @@ DOMAIN-SUFFIX,capitalonetravel.com
 DOMAIN-SUFFIX,capitaloneshopping.com
 DOMAIN-SUFFIX,capitalonebank.com
 DOMAIN-KEYWORD,capitalone
-# IBKR
 DOMAIN-SUFFIX,ibkr.com
 DOMAIN-SUFFIX,ibllc.com
 DOMAIN-SUFFIX,interactivebrokers.com
 DOMAIN-SUFFIX,ibg.work
 DOMAIN-SUFFIX,ibkr.info
 DOMAIN-KEYWORD,ibkr
-# monzo
 DOMAIN-SUFFIX,monzo.com
-# sofi
 DOMAIN-SUFFIX,sofi.com
-# revolut
 DOMAIN-SUFFIX,revolut.com
-# payoneer
 DOMAIN-SUFFIX,payoneer.com
-# us bank
 DOMAIN-SUFFIX,www.uscardforum.com
 DOMAIN-SUFFIX,usbank.com
-# others
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,smarty.com
 DOMAIN-SUFFIX,usbank.com
