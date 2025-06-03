@@ -5,12 +5,8 @@ DOMAIN-SUFFIX,capitalonetravel.com
 DOMAIN-SUFFIX,capitaloneshopping.com
 DOMAIN-SUFFIX,capitalonebank.com
 DOMAIN-KEYWORD,capitalone
-DOMAIN-SUFFIX,ibkr.com
-DOMAIN-SUFFIX,ibllc.com
-DOMAIN-SUFFIX,interactivebrokers.com
-DOMAIN-SUFFIX,ibg.work
-DOMAIN-SUFFIX,ibkr.info
-DOMAIN-KEYWORD,ibkr
+DOMAIN-SUFFIX,equifax.com
+DOMAIN-KEYWORD,equifax
 DOMAIN-SUFFIX,monzo.com
 DOMAIN-SUFFIX,sofi.com
 DOMAIN-SUFFIX,revolut.com
