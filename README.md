@@ -1,3 +1,3 @@
-# rules
+# sth.
 
 for myself.
