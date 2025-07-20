@@ -1,5 +1,0 @@
-payload:
-  - DOMAIN-SUFFIX,icloud-content.com
-  - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,content-storage-upload.googleapis.com
-  - DOMAIN-SUFFIX,content-storage-download.googleapis.com
