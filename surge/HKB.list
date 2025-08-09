@@ -1,10 +1,11 @@
 # HSBC
-DOMAIN-KEYWORD,hsbc
 DOMAIN-SUFFIX,cdntm.hsbc.com.hk
 DOMAIN-SUFFIX,hsbc.com.hk
 DOMAIN-SUFFIX,rbwm-api.hsbc.com.hk
+DOMAIN-SUFFIX,cdnbc-wup.hsbc.com.hk
 DOMAIN-SUFFIX,sy.idp.liveperson.net
 DOMAIN-SUFFIX,mobile.eum-appdynamics.com
+DOMAIN-KEYWORD,hsbc
 
 # za
 DOMAIN-KEYWORD,za
