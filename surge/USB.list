@@ -28,3 +28,7 @@ DOMAIN-KEYWORD,smarty
 DOMAIN-SUFFIX,usbank.com
 DOMAIN-SUFFIX,zellepay.com
 DOMAIN-SUFFIX,plaid.com
+DOMAIN-KEYWORD,equifax
+#Karma
+DOMAIN-SUFFIX, intuit.com
+DOMAIN-SUFFIX, creditkarma.com
