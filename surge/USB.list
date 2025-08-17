@@ -29,5 +29,7 @@ DOMAIN-SUFFIX,usbank.com
 DOMAIN-SUFFIX,zellepay.com
 DOMAIN-SUFFIX,plaid.com
 #Karma
-DOMAIN-SUFFIX, intuit.com
-DOMAIN-SUFFIX, creditkarma.com
+DOMAIN-SUFFIX,intuit.com
+DOMAIN-SUFFIX,creditkarma.com
+DOMAIN-SUFFIX,alliantcreditunion.com
+DOMAIN-KEYWORD,smarty
