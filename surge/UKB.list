@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,lemfi.com
 DOMAIN-SUFFIX,curve.com
 DOMAIN-SUFFIX,curve.app
 DOMAIN-SUFFIX,curve.api.kustomerapp.com
+DOMAIN-KEYWORD,curve
 
 #giffgaff
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
