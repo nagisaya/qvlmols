@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,lemfi.com
 DOMAIN-SUFFIX,curve.com
 DOMAIN-SUFFIX,curve.app
 DOMAIN-SUFFIX,curve.api.kustomerapp.com
+DOMAIN-SUFFIX,account-curve-card-orders.production.curve.app
 DOMAIN-KEYWORD,curve
 
 #giffgaff
