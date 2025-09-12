@@ -1,77 +1,77 @@
 {
-  "name": "my-icon-set",
+  "name": "qvlmols",
   "icons": [
     {
       "name": "AdGuard",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/AdGuard.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/AdGuard.png"
     },
     {
       "name": "Duolingo",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/Duolingo.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/Duolingo.png"
     },
     {
       "name": "LLM",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/LLM.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/LLM.png"
     },
     {
       "name": "apple",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/apple.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/apple.png"
     },
     {
       "name": "bank",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/bank.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/bank.png"
     },
     {
       "name": "google",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/google.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/google.png"
     },
     {
       "name": "openai",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/openai.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/openai.png"
     },
     {
       "name": "paypal",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/paypal.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/paypal.png"
     },
     {
       "name": "proxy",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/proxy.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/proxy.png"
     },
     {
       "name": "servers",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/servers.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/servers.png"
     },
     {
       "name": "speedtest",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/speedtest.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/speedtest.png"
     },
     {
       "name": "ssid",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/ssid.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/ssid.png"
     },
     {
       "name": "telegram",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/telegram.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/telegram.png"
     },
     {
       "name": "tv",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/tv.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/tv.png"
     },
     {
       "name": "twitter",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/twitter.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/twitter.png"
     },
     {
       "name": "vps",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/vps.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/vps.png"
     },
     {
       "name": "wechat",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/wechat.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/wechat.png"
     },
     {
       "name": "youtube",
-      "url": "https://github.com/nagisaya/qvlmols/tree/main/apps/youtube.png"
+      "url": "https://github.com/nagisaya/qvlmols/tree/main/youtube.png"
     }
   ]
 }
