@@ -1,0 +1,77 @@
+{
+  "name": "my-icon-set",
+  "icons": [
+    {
+      "name": "AdGuard",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/AdGuard.png"
+    },
+    {
+      "name": "Duolingo",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/Duolingo.png"
+    },
+    {
+      "name": "LLM",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/LLM.png"
+    },
+    {
+      "name": "apple",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/apple.png"
+    },
+    {
+      "name": "bank",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/bank.png"
+    },
+    {
+      "name": "google",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/google.png"
+    },
+    {
+      "name": "openai",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/openai.png"
+    },
+    {
+      "name": "paypal",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/paypal.png"
+    },
+    {
+      "name": "proxy",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/proxy.png"
+    },
+    {
+      "name": "servers",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/servers.png"
+    },
+    {
+      "name": "speedtest",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/speedtest.png"
+    },
+    {
+      "name": "ssid",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/ssid.png"
+    },
+    {
+      "name": "telegram",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/telegram.png"
+    },
+    {
+      "name": "tv",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/tv.png"
+    },
+    {
+      "name": "twitter",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/twitter.png"
+    },
+    {
+      "name": "vps",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/vps.png"
+    },
+    {
+      "name": "wechat",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/wechat.png"
+    },
+    {
+      "name": "youtube",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/youtube.png"
+    }
+  ]
+}
