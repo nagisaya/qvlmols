@@ -2,6 +2,10 @@
   "name": "qvlmolsicons",
   "icons": [
     {
+      "name": "1password",
+      "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/apps/1password.png"
+    },
+    {
       "name": "AdGuard",
       "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/apps/AdGuard.png"
     },
@@ -40,6 +44,10 @@
     {
       "name": "proxy",
       "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/apps/proxy.png"
+    },
+    {
+      "name": "qx",
+      "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/apps/qx.png"
     },
     {
       "name": "servers",
