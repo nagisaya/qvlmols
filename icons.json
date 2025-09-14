@@ -82,8 +82,20 @@
       "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/google.png"
     },
     {
+      "name": "ibkr",
+      "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/ibkr.png"
+    },
+    {
+      "name": "instagram",
+      "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/instagram.png"
+    },
+    {
       "name": "LLM",
       "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/LLM.png"
+    },
+    {
+      "name": "news",
+      "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/news.png"
     },
     {
       "name": "openai",
@@ -164,6 +176,14 @@
     {
       "name": "wechat",
       "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/wechat.png"
+    },
+    {
+      "name": "wise",
+      "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/wise.png"
+    },
+    {
+      "name": "x",
+      "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/x.png"
     },
     {
       "name": "youtube",
