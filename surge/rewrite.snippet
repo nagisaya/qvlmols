@@ -36,13 +36,6 @@ hostname = acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.t
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js
 ^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js
 
-# > 阿里云盘
-hostname = api.alipan.com, member.alipan.com
-^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders url reject-dict
-^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/adrive/adrive.js
-^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/adrive/adrive.js
-^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle url reject-dict
-
 # > 彩云天气
 hostname = wrapper.cyapi.cn, api.caiyunapp.com
 ^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity\? url echo-response application/json echo-response https://raw.githubusercontent.com/Keywos/rule/main/mocks/caiyun.json
