@@ -1,4 +1,4 @@
-name: Generate icons.json (Surge-safe)
+name: Generate icons.json
 
 permissions:
   contents: write
@@ -13,67 +13,41 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate JSON files with Node (safe for Surge)
+      - name: Generate icons.json
         run: |
-          node - <<'NODE'
-          const fs = require('fs');
-          const path = require('path');
+          cd icons
+          echo '{' > icons.json
+          echo '  "name": "Qvlmols Icon Set",' >> icons.json
+          echo '  "icons": [' >> icons.json
+          first=true
 
-          const ICON_DIR = path.join(process.cwd(), 'icons');
+          # 按文件名排序，保持顺序稳定
+          for f in $(find . -type f -name "*.png" | sed 's|^\./||' | sort); do
+            name=$(echo "$f" | sed 's|\.png$||')
+            # 拼接 URL（不需要手动 encode，这里文件名本身安全）
+            url="https://raw.githubusercontent.com/${{ github.repository }}/main/icons/$f"
 
-          // 递归找出所有 png
-          function listPng(dir) {
-            const entries = fs.readdirSync(dir, { withFileTypes: true });
-            let files = [];
-            for (const e of entries) {
-              const p = path.join(dir, e.name);
-              if (e.isDirectory()) files = files.concat(listPng(p));
-              else if (e.isFile() && /\.png$/i.test(e.name)) files.push(p);
-            }
-            return files.sort((a,b) => a.localeCompare(b, 'en'));
-          }
+            if [ "$first" = true ]; then
+              first=false
+            else
+              echo ',' >> icons.json
+            fi
 
-          if (!fs.existsSync(ICON_DIR)) {
-            console.error('icons folder not found');
-            process.exit(1);
-          }
+            printf '    { "name": "%s", "url": "%s" }' "$name" "$url" >> icons.json
+          done
 
-          const repo = process.env.GITHUB_REPOSITORY; // e.g. nagisaya/qvlmols
-          const branch = 'main';
+          echo '' >> icons.json
+          echo '  ]' >> icons.json
+          echo '}' >> icons.json
 
-          const pngFiles = listPng(ICON_DIR);
-
-          // 生成数组数据：[{ name, url }]
-          const arr = pngFiles.map(abs => {
-            const rel = path.relative(ICON_DIR, abs).replace(/\\/g, '/'); // 相对 icons/ 的路径
-            const name = rel.replace(/\.png$/i, ''); // 去后缀
-            // URL 必须进行编码（空格/中文/特殊符号）
-            const encodedRel = rel.split('/').map(encodeURIComponent).join('/');
-            const url = `https://raw.githubusercontent.com/${repo}/${branch}/icons/${encodedRel}`;
-            return { name, url };
-          });
-
-          // 写入 /icons/icons.array.json（根数组）
-          const outArray = path.join(ICON_DIR, 'icons.array.json');
-          fs.writeFileSync(outArray, JSON.stringify(arr, null, 2) + '\n', 'utf8');
-
-          // 写入 /icons/icons.set.json（对象 + icons 数组）
-          const outSet = path.join(ICON_DIR, 'icons.set.json');
-          const setObj = { name: "Qvlmols Icon Set", icons: arr };
-          fs.writeFileSync(outSet, JSON.stringify(setObj, null, 2) + '\n', 'utf8');
-
-          console.log(`Wrote ${arr.length} icons to:`);
-          console.log(' - icons/icons.array.json');
-          console.log(' - icons/icons.set.json');
-          NODE
-
-      - name: Commit and push
+      - name: Commit and push icons.json
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add icons/icons.array.json icons/icons.set.json
-          git commit -m "Auto-generate Surge-safe icon JSON" || echo "No changes to commit"
+          git add icons/icons.json
+          git commit -m "Update icons.json" || echo "No changes to commit"
           git push
