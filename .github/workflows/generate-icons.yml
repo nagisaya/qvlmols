@@ -1,5 +1,8 @@
 name: Generate icons.json
 
+permissions:
+  contents: write
+  
 on:
   push:
     paths:
