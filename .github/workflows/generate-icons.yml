@@ -1,0 +1,40 @@
+name: Generate icons.json
+
+on:
+  push:
+    paths:
+      - "icons/*.png"
+      - "icons/**/*.png"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate icons.json
+        run: |
+          cd icons
+          echo '{' > icons.json
+          first=true
+          for f in $(find . -type f -name "*.png"); do
+            name=$(echo $f | sed 's|^\./||')
+            b64=$(base64 -w 0 "$f")
+            if [ "$first" = true ]; then
+              first=false
+            else
+              echo ',' >> icons.json
+            fi
+            printf '  "%s": "data:image/png;base64,%s"' "$name" "$b64" >> icons.json
+          done
+          echo "" >> icons.json
+          echo '}' >> icons.json
+
+      - name: Commit and push icons.json
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add icons/icons.json
+          git commit -m "Update icons.json" || echo "No changes to commit"
+          git push
