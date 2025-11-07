@@ -2,8 +2,9 @@ name: Generate icons.json
 
 permissions:
   contents: write
-  
+
 on:
+  workflow_dispatch:
   push:
     paths:
       - "icons/*.png"
@@ -16,22 +17,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate icons.json
+      - name: Generate icons.json (URL array format)
         run: |
           cd icons
           echo '{' > icons.json
+          echo '  "name": "Qvlmols Icon Set",' >> icons.json
+          echo '  "icons": [' >> icons.json
           first=true
           for f in $(find . -type f -name "*.png"); do
-            name=$(echo $f | sed 's|^\./||')
-            b64=$(base64 -w 0 "$f")
+            name=$(echo $f | sed 's|^\./||' | sed 's|\.png$||')  # 去掉前缀和 .png 后缀
+            url="https://raw.githubusercontent.com/${{ github.repository }}/main/icons/$(echo $f | sed 's|^\./||')"
             if [ "$first" = true ]; then
               first=false
             else
               echo ',' >> icons.json
             fi
-            printf '  "%s": "data:image/png;base64,%s"' "$name" "$b64" >> icons.json
+            printf '    { "name": "%s", "url": "%s" }' "$name" "$url" >> icons.json
           done
-          echo "" >> icons.json
+          echo '' >> icons.json
+          echo '  ]' >> icons.json
           echo '}' >> icons.json
 
       - name: Commit and push icons.json
@@ -39,5 +43,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add icons/icons.json
-          git commit -m "Update icons.json" || echo "No changes to commit"
+          git commit -m "Auto-generate icon set JSON" || echo "No changes to commit"
           git push
