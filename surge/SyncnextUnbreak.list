@@ -1,69 +1,190 @@
-DOMAIN-SUFFIX, movie.douban.com, DIRECT
-DOMAIN-SUFFIX, mddcloud.com.cn, DIRECT
-DOMAIN-SUFFIX, aliyundrive.asia, DIRECT
-DOMAIN-SUFFIX, ddys.info, DIRECT
-DOMAIN-SUFFIX, ddys.wiki, DIRECT
-DOMAIN-SUFFIX, ddys.pro, DIRECT
-DOMAIN-SUFFIX, ddys.mov, DIRECT
-DOMAIN-SUFFIX, ddys.art, DIRECT
-DOMAIN-SUFFIX, zh188.net, DIRECT
-DOMAIN-SUFFIX, kczybf.com, DIRECT
-DOMAIN-SUFFIX, mixpanel.com, DIRECT
-DOMAIN-SUFFIX, appsflyer.com, DIRECT
-DOMAIN-SUFFIX, tv.apple.com, DIRECT
-DOMAIN-SUFFIX, ctyunxs.cn, DIRECT
-DOMAIN-SUFFIX, hls.aoxtv.com, DIRECT
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,dyndns.com
+DOMAIN-SUFFIX,douyucdn.cn
+DOMAIN-SUFFIX,douyucdn2.cn
+DOMAIN-SUFFIX,gh.cooluc.com
 
-DOMAIN-KEYWORD, ffzy-play, DIRECT
-DOMAIN-KEYWORD, bfzycdn.com, DIRECT
-DOMAIN-KEYWORD, lzcdn, DIRECT
-DOMAIN-KEYWORD, cdnlz, DIRECT
-DOMAIN-KEYWORD, lz-cdn, DIRECT
-DOMAIN-KEYWORD, default.akamaized.net, DIRECT
-DOMAIN-KEYWORD, vip.ffzy-online, DIRECT
-DOMAIN-KEYWORD, vip.ffzy-play, DIRECT
-DOMAIN-KEYWORD, ffzyread, DIRECT
+#steam
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,dl.steam.clngaa.com
+DOMAIN-SUFFIX,dl.steam.ksyna.com
+DOMAIN-SUFFIX,st.dl.bscstorage.net
+DOMAIN-SUFFIX,st.dl.eccdnx.com
+DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com
+DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
+DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
+DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
+DOMAIN-SUFFIX,epicgames-download1-1251447533.file.myqcloud.com
 
-DOMAIN-SUFFIX, kuaikan-api.com, DIRECT
-DOMAIN-SUFFIX, cz.cz01.site, DIRECT
-DOMAIN-SUFFIX, czzy88.com, DIRECT
-DOMAIN-SUFFIX, czzy22.com, DIRECT
-DOMAIN-SUFFIX, czzy66.com, DIRECT
-DOMAIN-SUFFIX, cz233.com, DIRECT
-DOMAIN-SUFFIX, CZZ9.COM, DIRECT
-DOMAIN-SUFFIX, czzy.top, DIRECT
-DOMAIN-SUFFIX, czys.top, DIRECT
-DOMAIN-SUFFIX, czzy77.com, DIRECT
+#Synology ddns
+DOMAIN-SUFFIX,account.synology.com
+DOMAIN-SUFFIX,checkip.dyndns.org
+DOMAIN-SUFFIX,checkip.synology.com
+DOMAIN-SUFFIX,checkipv6.dyndns.org
+DOMAIN-SUFFIX,checkipv6.synology.com
+DOMAIN-SUFFIX,checkport.synology.com
+DOMAIN-SUFFIX,ddns.synology.com
 
-IP-CIDR, 216.180.0.0/16, DIRECT
-IP-CIDR, 103.160.204.120/32, DIRECT
-IP-CIDR, 138.199.9.104/32, DIRECT
+#SONY-Playstation
+DOMAIN-SUFFIX,zeus.dl.playstation.net
+DOMAIN-SUFFIX,ares.dl.playstation.net
+DOMAIN-SUFFIX,poseidon.dl.playstation.net
+DOMAIN-SUFFIX,gs2.ww.prod.dl.playstation.net
+DOMAIN-SUFFIX,gs2.sonycoment.loris-e.llnwd.net
+DOMAIN-SUFFIX,post.net.playstation.net
+DOMAIN-SUFFIX,get.net.playstation.net
 
-DOMAIN-SUFFIX, wogg.link, DIRECT
-DOMAIN-SUFFIX, xxooo.cf, DIRECT
-DOMAIN-SUFFIX, wogg.xyz, DIRECT
-DOMAIN-SUFFIX, pstatp.com, DIRECT
+#Syncnext
+DOMAIN-SUFFIX,xhofe.top
+DOMAIN-SUFFIX,nn.ci
+DOMAIN-SUFFIX,wogg.link
+DOMAIN-SUFFIX,wogg.xyz
+DOMAIN-SUFFIX,xxooo.cf
+DOMAIN-SUFFIX,imgbb.com
+DOMAIN-SUFFIX,aliyundrive.asia
+DOMAIN-SUFFIX,ddys.info
+DOMAIN-SUFFIX,ddys.wiki
+DOMAIN-SUFFIX,ddys.pro
+DOMAIN-SUFFIX,ddys.mov
+DOMAIN-SUFFIX,ddys.art
+DOMAIN-SUFFIX,zh188.net
+DOMAIN-SUFFIX,cz.cz01.site
+DOMAIN-SUFFIX,kczybf.com
+DOMAIN-SUFFIX,ctyunxs.cn
+DOMAIN-SUFFIX,hls.aoxtv.com
+DOMAIN-SUFFIX,czzy88.com
+DOMAIN-SUFFIX,czzy22.com
+DOMAIN-SUFFIX,czzy66.com
+DOMAIN-SUFFIX,cz233.com
+DOMAIN-SUFFIX,cz01.vip
+DOMAIN-SUFFIX,CZZ9.COM
+DOMAIN-SUFFIX,czzymovie.com
 
-DOMAIN-KEYWORD, tt.cuc.myqcloud.com.cn, DIRECT
+#lz-cdn...
+DOMAIN-SUFFIX,lz-cdn1.com
+DOMAIN-SUFFIX,lz-cdn2.com
+DOMAIN-SUFFIX,lz-cdn3.com
+DOMAIN-SUFFIX,lz-cdn4.com
+DOMAIN-SUFFIX,lz-cdn5.com
+DOMAIN-SUFFIX,lz-cdn6.com
+DOMAIN-SUFFIX,lz-cdn7.com
+DOMAIN-SUFFIX,lz-cdn8.com
+DOMAIN-SUFFIX,lz-cdn9.com
+DOMAIN-SUFFIX,lz-cdn10.com
+DOMAIN-SUFFIX,lz-cdn11.com
+DOMAIN-SUFFIX,lz-cdn12.com
+DOMAIN-SUFFIX,lz-cdn13.com
+DOMAIN-SUFFIX,lz-cdn14.com
+DOMAIN-SUFFIX,lz-cdn15.com
+DOMAIN-SUFFIX,lz-cdn16.com
+DOMAIN-SUFFIX,lz-cdn17.com
+DOMAIN-SUFFIX,lz-cdn18.com
+DOMAIN-SUFFIX,lz-cdn19.com
+DOMAIN-SUFFIX,lz-cdn20.com
+DOMAIN-SUFFIX,lz-cdn21.com
+DOMAIN-SUFFIX,lz-cdn22.com
+DOMAIN-SUFFIX,lz-cdn23.com
+DOMAIN-SUFFIX,lz-cdn24.com
+DOMAIN-SUFFIX,lz-cdn25.com
 
-DOMAIN-SUFFIX, ikzybf.com, DIRECT
-DOMAIN-SUFFIX, yanetflix.one, DIRECT
-DOMAIN-SUFFIX, bfikuncdn.com, DIRECT
-DOMAIN-SUFFIX, ikunzyapi.com, DIRECT
-DOMAIN-SUFFIX, kkzycdn.com, DIRECT
+#cdnlz...
+DOMAIN-SUFFIX,cdnlz1.com
+DOMAIN-SUFFIX,cdnlz2.com
+DOMAIN-SUFFIX,cdnlz3.com
+DOMAIN-SUFFIX,cdnlz4.com
+DOMAIN-SUFFIX,cdnlz5.com
+DOMAIN-SUFFIX,cdnlz6.com
+DOMAIN-SUFFIX,cdnlz7.com
+DOMAIN-SUFFIX,cdnlz8.com
+DOMAIN-SUFFIX,cdnlz9.com
+DOMAIN-SUFFIX,cdnlz10.com
+DOMAIN-SUFFIX,cdnlz11.com
+DOMAIN-SUFFIX,cdnlz12.com
+DOMAIN-SUFFIX,cdnlz13.com
+DOMAIN-SUFFIX,cdnlz14.com
+DOMAIN-SUFFIX,cdnlz15.com
+DOMAIN-SUFFIX,cdnlz16.com
+DOMAIN-SUFFIX,cdnlz17.com
+DOMAIN-SUFFIX,cdnlz18.com
+DOMAIN-SUFFIX,cdnlz19.com
+DOMAIN-SUFFIX,cdnlz20.com
+DOMAIN-SUFFIX,cdnlz21.com
+DOMAIN-SUFFIX,cdnlz22.com
+DOMAIN-SUFFIX,cdnlz23.com
+DOMAIN-SUFFIX,cdnlz24.com
+DOMAIN-SUFFIX,cdnlz25.com
 
-DOMAIN-SUFFIX, libvio.mov, DIRECT
-DOMAIN-SUFFIX, libvio.cc, DIRECT
-DOMAIN-SUFFIX, libvio.la, DIRECT
-DOMAIN-SUFFIX, libvio.pro, DIRECT
-DOMAIN-SUFFIX, libvio.fun, DIRECT
-DOMAIN-SUFFIX, libvio.me, DIRECT
-DOMAIN-SUFFIX, libvio.in, DIRECT
-DOMAIN-SUFFIX, libvio.site, DIRECT
-DOMAIN-SUFFIX, libvio.art, DIRECT
-DOMAIN-SUFFIX, libvio.com, DIRECT
-DOMAIN-SUFFIX, libvio.vip, DIRECT
-DOMAIN-SUFFIX, libvio.pw, DIRECT
-DOMAIN-SUFFIX, libvio.link, DIRECT
+#ffzyread...
+DOMAIN-SUFFIX,ffzyread.com
+DOMAIN-SUFFIX,ffzyread1.com
+DOMAIN-SUFFIX,ffzyread2.com
+DOMAIN-SUFFIX,ffzyread3.com
+DOMAIN-SUFFIX,ffzyread4.com
+DOMAIN-SUFFIX,ffzyread5.com
 
-DOMAIN-SUFFIX, czzymovie.com, DIRECT
+#ffzy-online
+DOMAIN-SUFFIX,ffzy-online1.com
+DOMAIN-SUFFIX,ffzy-online2.com
+DOMAIN-SUFFIX,ffzy-online3.com
+DOMAIN-SUFFIX,ffzy-online4.com
+DOMAIN-SUFFIX,ffzy-online5.com
+DOMAIN-SUFFIX,ffzy-online6.com
+DOMAIN-SUFFIX,ffzy-online7.com
+DOMAIN-SUFFIX,ffzy-online8.com
+DOMAIN-SUFFIX,ffzy-online9.com
+DOMAIN-SUFFIX,ffzy-online10.com
+DOMAIN-SUFFIX,ffzy-online11.com
+DOMAIN-SUFFIX,ffzy-online12.com
+DOMAIN-SUFFIX,ffzy-online13.com
+DOMAIN-SUFFIX,ffzy-online14.com
+DOMAIN-SUFFIX,ffzy-online15.com
+DOMAIN-SUFFIX,ffzy-online16.com
+DOMAIN-SUFFIX,ffzy-online17.com
+DOMAIN-SUFFIX,ffzy-online18.com
+DOMAIN-SUFFIX,ffzy-online19.com
+DOMAIN-SUFFIX,ffzy-online20.com
+
+#ffzy-play
+DOMAIN-SUFFIX,ffzy-play1.com
+DOMAIN-SUFFIX,ffzy-play2.com
+DOMAIN-SUFFIX,ffzy-play3.com
+DOMAIN-SUFFIX,ffzy-play4.com
+DOMAIN-SUFFIX,ffzy-play5.com
+DOMAIN-SUFFIX,ffzy-play6.com
+DOMAIN-SUFFIX,ffzy-play7.com
+DOMAIN-SUFFIX,ffzy-play8.com
+DOMAIN-SUFFIX,ffzy-play9.com
+DOMAIN-SUFFIX,ffzy-play10.com
+DOMAIN-SUFFIX,ffzy-play11.com
+DOMAIN-SUFFIX,ffzy-play12.com
+DOMAIN-SUFFIX,ffzy-play13.com
+DOMAIN-SUFFIX,ffzy-play14.com
+DOMAIN-SUFFIX,ffzy-play15.com
+DOMAIN-SUFFIX,ffzy-play16.com
+DOMAIN-SUFFIX,ffzy-play17.com
+DOMAIN-SUFFIX,ffzy-play18.com
+DOMAIN-SUFFIX,ffzy-play19.com
+DOMAIN-SUFFIX,ffzy-play20.com
+
+#
+DOMAIN-SUFFIX,bfikuncdn.com
+DOMAIN-SUFFIX,ikunzyapi.com
+DOMAIN-SUFFIX,kkzycdn.com
+
+DOMAIN-SUFFIX,libvio.mov
+DOMAIN-SUFFIX,libvio.cc
+DOMAIN-SUFFIX,libvio.la
+DOMAIN-SUFFIX,libvio.pro
+DOMAIN-SUFFIX,libvio.fun
+DOMAIN-SUFFIX,libvio.me
+DOMAIN-SUFFIX,libvio.in
+DOMAIN-SUFFIX,libvio.site
+DOMAIN-SUFFIX,libvio.art
+DOMAIN-SUFFIX,libvio.com
+DOMAIN-SUFFIX,libvio.vip
+DOMAIN-SUFFIX,libvio.pw
+DOMAIN-SUFFIX,libvio.link
+
+DOMAIN-SUFFIX,czzymovie.com
