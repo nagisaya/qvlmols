@@ -27,10 +27,19 @@ DOMAIN-SUFFIX, youtubekit-remote.losjet.com, Proxy
 DOMAIN-SUFFIX, vercel.app, Proxy
 
 # biubiubiu
-DOMAIN-SUFFIX, malaysla.com, Proxy
-DOMAIN-SUFFIX, biggggg.com, Proxy
-DOMAIN-SUFFIX, nivod4.tv, Proxy
-DOMAIN-SUFFIX, ulivetv.net, Proxy
-DOMAIN-SUFFIX, efhie.com, Proxy
-DOMAIN-SUFFIX, newpppp.com, Proxy
-DOMAIN-SUFFIX, ceres9350.com, Proxy
+DOMAIN-SUFFIX,malaysla.com, Proxy
+DOMAIN-SUFFIX,biggggg.com, Proxy
+DOMAIN-SUFFIX,newpppp.com, Proxy
+DOMAIN-SUFFIX,nivod4.tv, Proxy
+DOMAIN-SUFFIX,ulivetv.net, Proxy
+DOMAIN-SUFFIX,efhie.com, Proxy
+DOMAIN-SUFFIX,phncdn.com, Proxy
+DOMAIN-SUFFIX,pornhub.com, Proxy
+DOMAIN-SUFFIX,91p49.com, Proxy
+DOMAIN-SUFFIX,cdn13.com, Proxy
+DOMAIN-SUFFIX,ceres9350.com, Proxy
+DOMAIN-KEYWORD,bluewind, Proxy
+DOMAIN-KEYWORD,cnouki, Proxy
+DOMAIN-KEYWORD,fengyunjiaoyu, Proxy
+DOMAIN-KEYWORD,ceqhgj, Proxy
+DOMAIN-KEYWORD,cqehgj, Proxy
