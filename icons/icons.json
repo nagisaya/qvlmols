@@ -1,8 +1,8 @@
 {
   "name": "Qvlmols Icon Set",
   "icons": [
-    { "name": "1password", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/1password.png" },
     { "name": "1password_2", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/1password_2.png" },
+    { "name": "1password_new", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/1password_new.png" },
     { "name": "LLM", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/LLM.png" },
     { "name": "Manual", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/Manual.png" },
     { "name": "adblock", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/adblock.png" },
