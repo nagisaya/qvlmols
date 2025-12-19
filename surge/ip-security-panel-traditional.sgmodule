@@ -3,8 +3,7 @@
 #!author=HotKids&ChatGPT&Claude
 #!system=ios
 #!arguments=ipqs_key:null,event_delay:2
-#!arguments-desc=ipqs_key:(可選) IPQualityScore API Key，留空使用免費服務
-event_delay:(可選) 網路變化後延遲檢測時間（秒），預設 2 秒
+#!arguments-desc=ipqs_key:(可選) IPQualityScore API Key，留空使用免費服務\event_delay:(可選) 網路變化後延遲檢測時間（秒），預設 2 秒
 
 [Panel]
 ip-security-panel = script-name=ip-security-panel,update-interval=600
