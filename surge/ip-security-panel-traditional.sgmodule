@@ -1,0 +1,17 @@
+#!name=IP Security Monitor
+#!desc=顯示 IP 風險評分、類型、代理策略和入口/出口 IP 地理資訊，支援網路變化自動通知
+#!author=HotKids&ChatGPT&Claude
+#!system=ios
+#!arguments=ipqs_key:null,event_delay:2
+#!arguments-desc=ipqs_key:(可選) IPQualityScore API Key，留空使用免費服務
+event_delay:(可選) 網路變化後延遲檢測時間（秒），預設 2 秒
+
+[Panel]
+ip-security-panel = script-name=ip-security-panel,update-interval=600
+
+[Script]
+# 面板手動觸發
+ip-security-panel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/HotKids/Rules/master/Surge/Module/Scripts/ip-security.js,argument=ipqs_key={{{ipqs_key}}}
+
+# 網路變化自動觸發
+ip-security-event = type=event,event-name=network-changed,timeout=10,script-path=https://raw.githubusercontent.com/HotKids/Rules/master/Surge/Module/Scripts/ip-security.js,argument=TYPE=EVENT&ipqs_key={{{ipqs_key}}}&event_delay={{{event_delay}}}
