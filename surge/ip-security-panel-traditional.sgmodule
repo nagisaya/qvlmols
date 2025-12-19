@@ -11,7 +11,7 @@ ip-security-panel = script-name=ip-security-panel,update-interval=600
 
 [Script]
 # 面板手動觸發
-ip-security-panel = type=generic,timeout=10,script-path=raw.githubusercontent.com/nagisaya/qvlmols/refs/heads/main/surge/ip-security.js,argument=ipqs_key={{{ipqs_key}}}
+ip-security-panel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/nagisaya/qvlmols/refs/heads/main/surge/ip-security.js,argument=ipqs_key={{{ipqs_key}}}
 
 # 網路變化自動觸發
-ip-security-event = type=event,event-name=network-changed,timeout=10,script-path=raw.githubusercontent.com/nagisaya/qvlmols/refs/heads/main/surge/ip-security.js,argument=TYPE=EVENT&ipqs_key={{{ipqs_key}}}&event_delay={{{event_delay}}}
+ip-security-event = type=event,event-name=network-changed,timeout=10,script-path=https://raw.githubusercontent.com/nagisaya/qvlmols/refs/heads/main/surge/ip-security.js,argument=TYPE=EVENT&ipqs_key={{{ipqs_key}}}&event_delay={{{event_delay}}}
