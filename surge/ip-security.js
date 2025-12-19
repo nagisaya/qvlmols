@@ -306,9 +306,9 @@ function notify(title, subtitle, content) {
 
   if (arg.TYPE === "EVENT") {
     const notifyTitle = "網路已切換 | " + policy;
-    const notifySubtitle = "Ⓓ " + inIP + " " + outIP;
+    const notifySubtitle = "🅓 " + inIP + " " + outIP;
     const notifyContentParts = [
-      "Ⓓ " + flag(inGeo?.countryCode) + " " + [inGeo?.city, inGeo?.country].filter(Boolean).join(", ") + " · " + (inISP?.organization || "Unknown"),
+      "🅓 " + flag(inGeo?.countryCode) + " " + [inGeo?.city, inGeo?.country].filter(Boolean).join(", ") + " · " + (inISP?.organization || "Unknown"),
       " " + flag(outGeo?.countryCode) + " " + [outGeo?.city, outGeo?.country].filter(Boolean).join(", ") + " · " + (outISP?.organization || "Unknown"),
       " 風控：" + riskInfo.score + "% " + riskLabel + " | 類型：" + ipType + " · " + ipSrc
     ];
