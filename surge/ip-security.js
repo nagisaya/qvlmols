@@ -490,10 +490,10 @@ function buildPanelContent({ isZh, isMask, riskInfo, riskResult, ipType, ipSrc, 
  */
 function sendNetworkChangeNotification({ policy, inIP, outIP, inInfo, outInfo, riskInfo, riskResult, ipType, ipSrc, isMask }) {
   const m = (ip) => isMask ? maskIP(ip) : ip;
-  const title = "🔄 網路已切換 | " + policy;
-  const subtitle = "Ⓓ " + m(inIP) + " 🅟 " + m(outIP);
+  const title = "⌘ 網路已切換 | " + policy;
+  const subtitle = "🅓 " + m(inIP) + " 🅟 " + m(outIP);
   const body = [
-    "Ⓓ " + formatGeo(inInfo?.country_code, inInfo?.city, inInfo?.country_name) + " · " + (inInfo?.org || "Unknown"),
+    "🅓 " + formatGeo(inInfo?.country_code, inInfo?.city, inInfo?.country_name) + " · " + (inInfo?.org || "Unknown"),
     "🅟 " + formatGeo(outInfo?.country_code, outInfo?.city, outInfo?.country_name) + " · " + (outInfo?.org || "Unknown"),
     "🅟 風控：" + riskInfo.score + "% " + riskResult.label + " | 類型：" + ipType + " · " + ipSrc
   ].join("\n");
