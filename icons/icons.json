@@ -1,6 +1,7 @@
 {
   "name": "Qvlmols Icon Set",
   "icons": [
+    { "name": "1password", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/1password.png" },
     { "name": "1password_2", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/1password_2.png" },
     { "name": "1password_new", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/1password_new.png" },
     { "name": "Crypto", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/Crypto.png" },
@@ -9,6 +10,8 @@
     { "name": "Microsoft", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/Microsoft.png" },
     { "name": "adblock", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/adblock.png" },
     { "name": "amazon", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/amazon.png" },
+    { "name": "apple", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/apple" },
+    { "name": "intelligence", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/intelligence.png" },
     { "name": "apple", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/apple.png" },
     { "name": "apple_intelligence", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/apple_intelligence.png" },
     { "name": "auto", "url": "https://raw.githubusercontent.com/nagisaya/qvlmols/main/icons/auto.png" },
