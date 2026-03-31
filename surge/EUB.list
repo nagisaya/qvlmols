@@ -6,3 +6,7 @@ DOMAIN-SUFFIX,bybit.eu
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,byapps.net
 DOMAIN-KEYWORD,bybit
+#OKX
+DOMAIN-SUFFIX,okx.com
+DOMAIN-KEYWORD,okx-dns
+DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
