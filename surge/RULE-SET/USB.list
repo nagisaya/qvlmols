@@ -10,6 +10,11 @@ DOMAIN-SUFFIX,capitalonetravel.com
 DOMAIN-SUFFIX,capitaloneshopping.com
 DOMAIN-SUFFIX,capitalonebank.com
 DOMAIN-KEYWORD,capitalone
+
+#Amex
+DOMAIN-SUFFIX,www.americanexpress.com
+DOMAIN-KEYWORD,americanexpress
+
 DOMAIN-SUFFIX,equifax.com
 DOMAIN-KEYWORD,equifax
 DOMAIN-KEYWORD,monzo
