@@ -35,8 +35,8 @@ DOMAIN-SUFFIX,zellepay.com
 DOMAIN-SUFFIX,plaid.com
 
 #Karma
-#DOMAIN-SUFFIX,intuit.com
-#DOMAIN-SUFFIX,creditkarma.com
+DOMAIN-SUFFIX,intuit.com
+DOMAIN-SUFFIX,creditkarma.com
 
 #alliantcreditunion
 DOMAIN-SUFFIX,alliantcreditunion.com
