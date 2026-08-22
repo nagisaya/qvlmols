@@ -12,15 +12,14 @@ const files = fs
   .filter(file => file.toLowerCase().endsWith(".png"))
   .sort();
 
-const icons = [];
+const icons = {};
 
 for (const file of files) {
   const name = path.basename(file, ".png");
 
-  icons.push({
-    name: name,
+  icons[name] = {
     url: `${baseURL}${encodeURIComponent(file)}`
-  });
+  };
 }
 
 const json = {
