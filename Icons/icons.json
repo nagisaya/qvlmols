@@ -1,194 +1,257 @@
 {
   "name": "QVL ICONSET",
-  "icons": {
-    "1password": {
+  "icons": [
+    {
+      "name": "1password",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/1password.png"
     },
-    "1password_2": {
+    {
+      "name": "1password_2",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/1password_2.png"
     },
-    "Crypto": {
+    {
+      "name": "Crypto",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/Crypto.png"
     },
-    "LLM": {
+    {
+      "name": "LLM",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/LLM.png"
     },
-    "Manual": {
+    {
+      "name": "Manual",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/Manual.png"
     },
-    "Microsoft": {
+    {
+      "name": "Microsoft",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/Microsoft.png"
     },
-    "adblock": {
+    {
+      "name": "adblock",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/adblock.png"
     },
-    "airplane": {
+    {
+      "name": "airplane",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/airplane.png"
     },
-    "amazon": {
+    {
+      "name": "amazon",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/amazon.png"
     },
-    "apple": {
+    {
+      "name": "apple",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/apple.png"
     },
-    "apple_intelligence": {
+    {
+      "name": "apple_intelligence",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/apple_intelligence.png"
     },
-    "auto": {
+    {
+      "name": "auto",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/auto.png"
     },
-    "avatar": {
+    {
+      "name": "avatar",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/avatar.png"
     },
-    "bank": {
+    {
+      "name": "bank",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/bank.png"
     },
-    "bank_hk": {
+    {
+      "name": "bank_hk",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/bank_hk.png"
     },
-    "bank_us": {
+    {
+      "name": "bank_us",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/bank_us.png"
     },
-    "bilibili": {
+    {
+      "name": "bilibili",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/bilibili.png"
     },
-    "duolingo": {
+    {
+      "name": "duolingo",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/duolingo.png"
     },
-    "flg_ar": {
+    {
+      "name": "flg_ar",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_ar.png"
     },
-    "flg_de": {
+    {
+      "name": "flg_de",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_de.png"
     },
-    "flg_fr": {
+    {
+      "name": "flg_fr",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_fr.png"
     },
-    "flg_gb": {
+    {
+      "name": "flg_gb",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_gb.png"
     },
-    "flg_hk": {
+    {
+      "name": "flg_hk",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_hk.png"
     },
-    "flg_in": {
+    {
+      "name": "flg_in",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_in.png"
     },
-    "flg_jp": {
+    {
+      "name": "flg_jp",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_jp.png"
     },
-    "flg_kr": {
+    {
+      "name": "flg_kr",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_kr.png"
     },
-    "flg_mo": {
+    {
+      "name": "flg_mo",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_mo.png"
     },
-    "flg_ru": {
+    {
+      "name": "flg_ru",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_ru.png"
     },
-    "flg_sg": {
+    {
+      "name": "flg_sg",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_sg.png"
     },
-    "flg_tr": {
+    {
+      "name": "flg_tr",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_tr.png"
     },
-    "flg_tw": {
+    {
+      "name": "flg_tw",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_tw.png"
     },
-    "flg_usa": {
+    {
+      "name": "flg_usa",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/flg_usa.png"
     },
-    "folder": {
+    {
+      "name": "folder",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/folder.png"
     },
-    "gateway": {
+    {
+      "name": "gateway",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/gateway.png"
     },
-    "google": {
+    {
+      "name": "google",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/google.png"
     },
-    "ibkr": {
+    {
+      "name": "ibkr",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/ibkr.png"
     },
-    "instagram": {
+    {
+      "name": "instagram",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/instagram.png"
     },
-    "mcd": {
+    {
+      "name": "mcd",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/mcd.png"
     },
-    "news": {
+    {
+      "name": "news",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/news.png"
     },
-    "openai": {
+    {
+      "name": "openai",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/openai.png"
     },
-    "paypal": {
+    {
+      "name": "paypal",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/paypal.png"
     },
-    "primevideo": {
+    {
+      "name": "primevideo",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/primevideo.png"
     },
-    "qx": {
+    {
+      "name": "qx",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/qx.png"
     },
-    "qx_2": {
+    {
+      "name": "qx_2",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/qx_2.png"
     },
-    "qx_3": {
+    {
+      "name": "qx_3",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/qx_3.png"
     },
-    "servers": {
+    {
+      "name": "servers",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/servers.png"
     },
-    "speedtest": {
+    {
+      "name": "speedtest",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/speedtest.png"
     },
-    "ssid": {
+    {
+      "name": "ssid",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/ssid.png"
     },
-    "surge": {
+    {
+      "name": "surge",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/surge.png"
     },
-    "surge_2": {
+    {
+      "name": "surge_2",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/surge_2.png"
     },
-    "surge_3": {
+    {
+      "name": "surge_3",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/surge_3.png"
     },
-    "surge_4": {
+    {
+      "name": "surge_4",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/surge_4.png"
     },
-    "telegram": {
+    {
+      "name": "telegram",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/telegram.png"
     },
-    "telegram_2": {
+    {
+      "name": "telegram_2",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/telegram_2.png"
     },
-    "tmobile": {
+    {
+      "name": "tmobile",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/tmobile.png"
     },
-    "tv": {
+    {
+      "name": "tv",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/tv.png"
     },
-    "tweetbot": {
+    {
+      "name": "tweetbot",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/tweetbot.png"
     },
-    "twitter": {
+    {
+      "name": "twitter",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/twitter.png"
     },
-    "vps": {
+    {
+      "name": "vps",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/vps.png"
     },
-    "wechat": {
+    {
+      "name": "wechat",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/wechat.png"
     },
-    "wise": {
+    {
+      "name": "wise",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/wise.png"
     },
-    "x": {
+    {
+      "name": "x",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/x.png"
     },
-    "youtube": {
+    {
+      "name": "youtube",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/youtube.png"
     }
-  }
+  ]
 }
