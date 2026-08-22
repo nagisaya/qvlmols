@@ -134,6 +134,10 @@
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/folder.png"
     },
     {
+      "name": "folder_2",
+      "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/folder_2.png"
+    },
+    {
       "name": "gateway",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/gateway.png"
     },
@@ -208,6 +212,10 @@
     {
       "name": "surge_4",
       "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/surge_4.png"
+    },
+    {
+      "name": "surge_5",
+      "url": "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/surge_5.png"
     },
     {
       "name": "telegram",
