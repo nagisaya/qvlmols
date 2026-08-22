@@ -10,14 +10,12 @@ on:
     paths:
       - "Icons/**/*.png"
 
-
 concurrency:
   group: icon-generation
   cancel-in-progress: true
 
 
 jobs:
-
   build:
 
     runs-on: ubuntu-latest
@@ -34,7 +32,7 @@ jobs:
           node-version: 22
 
 
-      - name: Generate icons.json and icons.js
+      - name: Generate icons.json
         run: |
           node Scripts/tools/generate-icons.js
 
@@ -44,7 +42,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add Icons/icons.json Icons/icons.js
+          git add Icons/icons.json
 
           git commit -m "Update icons database" || echo "No changes"
 
