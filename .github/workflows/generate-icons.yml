@@ -1,49 +1,37 @@
-name: Qvl Iconset
+const fs = require("fs");
+const path = require("path");
 
-permissions:
-  contents: write
+const iconsDir = path.join(__dirname, "../../Icons");
+const output = path.join(iconsDir, "icons.json");
 
-on:
-  workflow_dispatch:
+const baseURL =
+  "https://raw.githubusercontent.com/nagisaya/Surge/main/Icons/";
 
-  push:
-    paths:
-      - "Icons/**/*.png"
+const files = fs
+  .readdirSync(iconsDir)
+  .filter(file => file.toLowerCase().endsWith(".png"))
+  .sort();
 
-concurrency:
-  group: icon-generation
-  cancel-in-progress: true
+const icons = [];
 
+for (const file of files) {
+  const name = path.basename(file, ".png");
 
-jobs:
-  build:
+  icons.push({
+    name: name,
+    url: `${baseURL}${encodeURIComponent(file)}`
+  });
+}
 
-    runs-on: ubuntu-latest
+const json = {
+  name: "QVL ICONSET",
+  icons: icons
+};
 
-    steps:
+fs.writeFileSync(
+  output,
+  JSON.stringify(json, null, 2) + "\n",
+  "utf8"
+);
 
-      - name: Checkout
-        uses: actions/checkout@v4
-
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
-
-      - name: Generate icons.json
-        run: |
-          node Scripts/tools/generate-icons.js
-
-
-      - name: Commit and push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add Icons/icons.json
-
-          git commit -m "Update icons database" || echo "No changes"
-
-          git push
+console.log(`Generated ${files.length} icons`);
